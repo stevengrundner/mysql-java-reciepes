@@ -49,7 +49,7 @@ CREATE TABLE step (
 CREATE TABLE ingredient (
   ingredient_id INT AUTO_INCREMENT NOT NULL,
   recipe_id INT NOT NULL,
-  unit_id INT NOT NULL,
+  unit_id INT,
   ingredient_name VARCHAR(64) NOT NULL,
   instruction VARCHAR(64),
   ingredient_order INT NOT NULL,
